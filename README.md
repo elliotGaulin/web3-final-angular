@@ -1,27 +1,25 @@
-# ProjetFinalAngular
+# APPLICATION ANGULAR FINALE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+## Installation
 
-## Development server
+1. ```npm install```
+2. ```ng serve```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Description de l'application
+Cette application est une application permettant la création et la lecture d'articles, similaire à Wikipedia. Elle est composée de 3 pages :
+- La page d'accueil
+- La page de connexion
+- La page contenant les articles d'un utilisateur
+- La page de création d'article
+- La page de lecture d'article  
 
-## Code scaffolding
+Sur la page d'accueil, il est possible de filtrer les articles selon leurs tags. De plus, en appuyant sur le bouton VOIR, on est redirigé vers la page de lecture de l'article. Sur cette page, il est possible de lire l'article ou de le supprimer en appuyant sur le bouton prévu à cet effet. Seulement l'auteur de l'article peut le supprimer.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Pour se connecter, il faut cliquer sur le bouton "Se connecter" en haut à droite de la page d'accueil. Une fois connecté, on est redirigé vers la page principale.
 
-## Build
+Pour créer un article, il faut cliquer sur le bouton "Créer un article" en haut à droite de la barre de navigation. Il faut être connecté pour pouvoir créer l'article. Une fois l'article créé, on est redirigé vers la page principale
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Informations de connexion
+Pour se connecter, il faut utiliser les identifiants suivants :
+- Identifiant : admin
+- Mot de passe : qwerty

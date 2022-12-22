@@ -1,0 +1,15 @@
+<form #loginForm="ngForm">
+    <h1 i18n>Log in</h1>
+    <mat-form-field class="full-width-field">
+        <mat-label i18n>Username</mat-label>
+        <input matInput placeholder="Username" i18n-placeholder name="username" [(ngModel)]="user.username" required>
+        <mat-error *ngIf="user.username == null || user.username.length == 0" i18n>Username is required</mat-error>
+    </mat-form-field>
+    <mat-form-field class="full-width-field">
+        <mat-label i18n>Password</mat-label>
+        <input matInput placeholder="Password" i18n-placeholder name="password" [(ngModel)]="user.password" type="password" required>
+        <mat-error *ngIf="user.password == null || user.password.length == 0" i18n>Password is required</mat-error>
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="login-button" (click)="login()" [disabled]="!loginForm.form.valid" i18n>Login</button>
+    <mat-error *ngIf="loginError.length != 0" i18n>Invalid username or password</mat-error>
+</form>

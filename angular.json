@@ -4,6 +4,14 @@
   "newProjectRoot": "projects",
   "projects": {
     "projet-final-angular": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fr-CA": {
+            "translation": "src/locale/messages.fr.xlf"
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,6 +21,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": [
+              "fr-CA"
+            ],
             "outputPath": "dist/projet-final-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -22,12 +33,19 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest",
+              "src/manifest.webmanifest"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/marked/marked.min.js"
+            ],
+            "ngswConfigPath": "ngsw-config.json",
+            "serviceWorker": true
           },
           "configurations": {
             "production": {
@@ -84,9 +102,12 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest",
+              "src/manifest.webmanifest"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []

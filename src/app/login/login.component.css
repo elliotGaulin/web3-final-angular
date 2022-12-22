@@ -1,0 +1,13 @@
+form{
+    width: 100%;
+    max-width: 500px;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.full-width-field{
+    width: 100%;
+}

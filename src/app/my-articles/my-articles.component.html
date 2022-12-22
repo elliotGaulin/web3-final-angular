@@ -1,0 +1,18 @@
+<div class="content">
+    <h1 i18n>My articles</h1>
+    <mat-card class="article-card" *ngFor="let article of articles">
+        <mat-card-header>
+            <mat-card-title>{{article.name}}</mat-card-title>
+            <mat-card-subtitle>
+                Tags: <ng-container *ngFor="let tag of article.tags; let isLast=last">{{tag.charAt(0).toUpperCase() +
+                    tag.slice(1)}}<ng-container *ngIf="!isLast">, </ng-container> </ng-container>
+            </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>{{article.description}}</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button routerLink="/article/{{article.articleIdentifier}}" i18n>VIEW</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

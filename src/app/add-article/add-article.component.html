@@ -1,0 +1,31 @@
+<form #articleForm="ngForm">
+    <h1 i18n>Add an article</h1>
+    <mat-form-field class="full-width-field">
+        <mat-label i18n>Name</mat-label>
+        <input matInput placeholder="Name" i18n-placeholder name="name" [(ngModel)]="article.name" required>
+        <mat-error *ngIf="article.name == null || article.name.length == 0" i18n>Title is required</mat-error>
+    </mat-form-field>
+    <mat-form-field class="full-width-field">
+        <mat-label i18n>Description</mat-label>
+        <input matInput placeholder="Description" i18n-placeholder name="description" [(ngModel)]="article.description" required>
+        <mat-error *ngIf="article.description == null || article.description.length == 0" i18n>Description is
+            required</mat-error>
+    </mat-form-field>
+    <!-- A textarea for the tags -->
+    <mat-form-field class="full-width-field">
+        <mat-label i18n>Tags</mat-label>
+        <textarea matInput placeholder="Tags" i18n-placeholder name="tags" [(ngModel)]="tagsTextArea" required></textarea>
+        <mat-hint i18n>Enter one tag per line</mat-hint>
+        <mat-error *ngIf="article.tags == null || article.tags.length == 0" i18n>Tags are required</mat-error>
+    </mat-form-field>
+    <mat-form-field class="full-width-field">
+        <mat-label i18n>Sources</mat-label>
+        <textarea matInput placeholder="MySource|https://mysource.com" name="sources" [(ngModel)]="sourcesTextArea"></textarea>
+        <mat-hint i18n>Enter one source per line. Seprate the name and url by a pipe</mat-hint>
+    </mat-form-field>
+    <mat-form-field class="full-width-field">
+        <mat-label i18n>Article content as markdown</mat-label>
+        <textarea matInput placeholder="Article content as markdown" i18n-placeholder name="markdown" [(ngModel)]="markdown" rows="10"></textarea>
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="submit-button" (click)="addArticle()" [disabled]="!articleForm.form.valid" i18n>Submit</button>
+</form>

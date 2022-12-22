@@ -1,0 +1,12 @@
+<mat-toolbar>
+    <button mat-button routerLink="/"><b i18n>Wikipidiot</b></button>
+    <span class="spacer"></span>
+    <ng-container *ngIf="user == null">
+        <button mat-button routerLink="/login" i18n>Login</button>
+    </ng-container>
+    <ng-container *ngIf="user != null">
+        <button mat-button routerLink="/my-articles">{{user.username}}</button>
+        <button mat-button routerLink="/add-article" i18n>Add an article</button>
+        <button mat-button (click)="logout()" i18n>Logout</button>
+    </ng-container>
+</mat-toolbar>

@@ -1,0 +1,19 @@
+form{
+    width: 100%;
+    max-width: 1000px;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.full-width-field{
+    width: 100%;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8188658688301328449" datatype="html">
+        <source>Add an article</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5642836248241530789" datatype="html">
+        <source>Title is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4902817035128594900" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6240684629381435026" datatype="html">
+        <source>Description is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7886570921510760899" datatype="html">
+        <source>Tags</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="680800129751313469" datatype="html">
+        <source>Enter one tag per line</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5571705399794751501" datatype="html">
+        <source>Tags are required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3998597663055219440" datatype="html">
+        <source>Sources</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1784201147606704032" datatype="html">
+        <source>Enter one source per line. Seprate the name and url by a pipe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7073591276491752521" datatype="html">
+        <source>Article content as markdown</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="935187492052582731" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4722506487175129536" datatype="html">
+        <source>You must be logged in to add an article</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1536087519743707362" datatype="html">
+        <source>Dismiss</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-article/add-article.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.ts</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2784168796433474565" datatype="html">
+        <source>Filter by tag</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1616102757855967475" datatype="html">
+        <source>All</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="736910733637594620" datatype="html">
+        <source> Tags: <x id="START_TAG_NG_CONTAINER_1" ctype="x-ng_container_1" equiv-text="&lt;ng-container *ngFor=&quot;let tag of article.tags; let isLast=last&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{tag.charAt(0).toUpperCase() +
+                    tag.slice(1)}}"/><x id="START_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;ng-container *ngIf=&quot;!isLast&quot;&gt;"/>, <x id="CLOSE_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;/ng-container&gt;"/><x id="CLOSE_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;/ng-container&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="575919591041213158" datatype="html">
+        <source>VIEW</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-articles/my-articles.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2336550011721758066" datatype="html">
+        <source>Log in</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5248717555542428023" datatype="html">
+        <source>Username</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3702338872876040900" datatype="html">
+        <source>Username is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1431416938026210429" datatype="html">
+        <source>Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="205044832662301680" datatype="html">
+        <source>Password is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2454050363478003966" datatype="html">
+        <source>Login</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4317027234970021182" datatype="html">
+        <source>Invalid username or password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7866522645600789658" datatype="html">
+        <source>My articles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-articles/my-articles.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5503656866047504244" datatype="html">
+        <source>Wikipidiot</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3797778920049399855" datatype="html">
+        <source>Logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6826864393556737072" datatype="html">
+        <source> Created <x id="INTERPOLATION" equiv-text="{{article?.daysSinceCreation}}"/> days ago </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8348421135073279277" datatype="html">
+        <source>Description : <x id="INTERPOLATION" equiv-text="{{article?.description}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2105803667574315053" datatype="html">
+        <source>Created on: <x id="INTERPOLATION" equiv-text="{{ article?.created | date }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6215442887827609885" datatype="html">
+        <source>Views : <x id="INTERPOLATION" equiv-text="{{article?.views}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3664570685062883808" datatype="html">
+        <source>Available languages : <x id="INTERPOLATION" equiv-text="{{availableLanguages()}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="841311519047609428" datatype="html">
+        <source>DELETE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4059772042736862025" datatype="html">
+        <source>You must be logged in to delete an article</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1572034370870212652" datatype="html">
+        <source>You must be the author to delete an article</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/view-article/view-article.component.ts</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

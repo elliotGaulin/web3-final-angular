@@ -23,3 +23,6 @@ Pour créer un article, il faut cliquer sur le bouton "Créer un article" en hau
 Pour se connecter, il faut utiliser les identifiants suivants :
 - Identifiant : admin
 - Mot de passe : qwerty
+
+## URL de l'application en ligne
+https://elliotgaulin.github.io/

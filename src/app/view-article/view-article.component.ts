@@ -52,7 +52,7 @@ export class ViewArticleComponent implements OnInit {
       });
       return;
     }
-    if(this.userService.user._id != this.article?.articleIdentifier) {
+    if(this.userService.user._id != this.article?.authorIdentifier) {
       this.snackBar.open($localize `You must be the author to delete an article`, $localize `Dismiss`, {
         duration: 2000,
       });
